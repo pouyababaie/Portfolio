@@ -35,9 +35,9 @@ li {
   border-bottom: 1px solid whitesmoke;
   padding-bottom: 1vh;
 }
-body {
+body,html {
   overflow-x: hidden;
-  background-image: image("/images/6.jpg");
+  background-image: url("6.jpg");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
