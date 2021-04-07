@@ -55,7 +55,6 @@ li {
   justify-content: center;
   box-shadow: 5vh;
   border-radius: 50%;
-  border: 2px solid gray;
   background-color: inherit;
   height: 75vh;
   width: 75vh;
@@ -63,8 +62,34 @@ li {
 .intxt {
   text-align: center;
   position: absolute;
-  top: 65%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%);
   margin: auto;
+  color: dimgrey;
+  font-size: 2.5vh;
+}
+.icons {
+  position: fixed;
+  left: 1%;
+  top: 40%;
+}
+.icons i {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  font-size: 4vh;
+  color: #253e2b;
+  pointer-events: painted;
+}
+#Profile_pic img {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  border: none;
+  border-radius: 60%;
 }
