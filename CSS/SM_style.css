@@ -84,7 +84,8 @@ li {
   color: #253e2b;
   pointer-events: painted;
 }
-#Profile_pic img {
+
+#Profile_pic {
   position: absolute;
   top: 15%;
   left: 20%;
